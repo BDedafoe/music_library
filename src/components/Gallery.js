@@ -4,6 +4,7 @@ import GalleryItem from './GalleryItem'
 
 const Gallery = () => {
     const data = useContext(DataContext)
+    const myData = data.result.read()
 
     const display = data.map((item, index) => {
         return (
