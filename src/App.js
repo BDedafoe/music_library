@@ -24,7 +24,7 @@ const App = () => {
     if(data) {
       return (
         <Suspense fallback={<Spinner/>}>
-          <Gallery />
+          <Gallery data={data}/>
         </Suspense>
       )
     }

@@ -1,5 +1,5 @@
 const fetchSearch = (searchTerm, path) => {
-    return fetch(`http://localhost:4000/${path}/${searchTerm}`)
+    return fetch(`http://localhost3000/${path}/${searchTerm}`)
     .then(response => response.json())
     .then(resData => resData.results)
 }
