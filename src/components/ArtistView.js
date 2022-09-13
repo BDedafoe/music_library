@@ -8,7 +8,7 @@ const ArtistView = () => {
     const [ artistData, setArtistData ] = useState([])
     
     useEffect(() => {
-        const API_URL = `http://localhost:3000/album/${id}`
+        const API_URL = `http://localhost:4000/album/${id}`
         const fetchData = async () => {
             const response = await fetch(API_URL)
             const resData = await response.json()
