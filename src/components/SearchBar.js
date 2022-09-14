@@ -8,7 +8,7 @@ function SearchBar() {
     return (
         <form>
             <input ref={term} type="text" placeholder="Search Here" />
-            <Button variant="info" onClick={(e) => handleSearch(e, term.current.value)}>Submit</Button>
+            <Button variant="info" onClick={(e) => handleSearch(e, term.current.value)}>Submit</Button>{' '}
         </form>
     )
 }
