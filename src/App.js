@@ -5,6 +5,7 @@ import SearchBar from './components/SearchBar'
 import { DataContext } from './context/DataContext'
 import { SearchContext } from './context/SearchContext'
 
+
 function App() {
   let [searchTerm, setSearchTerm] = useState('')
   let [data, setData] = useState([])
